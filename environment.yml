@@ -5,6 +5,7 @@ channels:
 dependencies:
   - _openmp_mutex=4.5=7_kmp_llvm
   - anyio=4.12.1=pyhcf101f3_0
+  - appdirs=1.4.4=pyhd8ed1ab_1
   - appnope=0.1.4=pyhd8ed1ab_1
   - argon2-cffi=25.1.0=pyhd8ed1ab_0
   - argon2-cffi-bindings=25.1.0=py311h9408147_2
@@ -29,6 +30,7 @@ dependencies:
   - charset-normalizer=3.4.4=pyhd8ed1ab_0
   - comm=0.2.3=pyhe01879c_0
   - contourpy=1.3.3=py311h7d85929_4
+  - cryptography=46.0.4=py311hfdedaa2_0
   - cycler=0.12.1=pyhcf101f3_2
   - debugpy=1.8.20=py311h8948835_0
   - decorator=5.2.1=pyhd8ed1ab_0
@@ -38,9 +40,11 @@ dependencies:
   - fonttools=4.61.1=py311ha9b3269_0
   - fqdn=1.5.1=pyhd8ed1ab_1
   - freetype=2.14.1=hce30654_0
+  - frozendict=2.4.7=py311h9408147_0
   - h11=0.16.0=pyhcf101f3_1
   - h2=4.3.0=pyhcf101f3_0
   - hpack=4.1.0=pyhd8ed1ab_0
+  - html5lib=1.1=pyhd8ed1ab_2
   - httpcore=1.0.9=pyh29332c3_0
   - httpx=0.28.1=pyhd8ed1ab_0
   - hyperframe=6.1.0=pyhd8ed1ab_0
@@ -92,6 +96,7 @@ dependencies:
   - libgcc=15.2.0=hcbb3090_17
   - libgfortran=15.2.0=h07b0088_17
   - libgfortran5=15.2.0=hdae7583_17
+  - libiconv=1.18=h23cfdf5_2
   - libjpeg-turbo=3.1.2=hc919400_0
   - liblapack=3.11.0=5_hd9741b5_openblas
   - liblzma=5.8.2=h8088a28_0
@@ -102,13 +107,18 @@ dependencies:
   - libtiff=4.7.1=h4030677_1
   - libwebp-base=1.6.0=h07db88b_0
   - libxcb=1.17.0=hdb1d25a_0
+  - libxml2=2.15.1=h762f11a_1
+  - libxml2-16=2.15.1=h6967ea9_1
+  - libxslt=1.1.43=hb2570ba_1
   - libzlib=1.3.1=h8359307_2
   - llvm-openmp=21.1.8=h4a912ad_0
+  - lxml=6.0.2=py311h7cdd18c_2
   - markupsafe=3.0.3=py311ha9b3269_0
   - matplotlib=3.10.8=py311ha1ab1f8_0
   - matplotlib-base=3.10.8=py311h29553df_0
   - matplotlib-inline=0.2.1=pyhd8ed1ab_0
   - mistune=3.2.0=pyhcf101f3_0
+  - multitasking=0.0.12=pyhd8ed1ab_0
   - munkres=1.1.4=pyhd8ed1ab_1
   - nbclient=0.10.4=pyhd8ed1ab_0
   - nbconvert-core=7.17.0=pyhcf101f3_0
@@ -125,6 +135,7 @@ dependencies:
   - pandas=3.0.0=py311h4a068b9_0
   - pandocfilters=1.5.0=pyhd8ed1ab_0
   - parso=0.8.5=pyhcf101f3_0
+  - patsy=1.0.2=pyhcf101f3_0
   - pexpect=4.9.0=pyhd8ed1ab_1
   - pillow=12.1.0=py311hd37aea2_0
   - pip=26.0.1=pyh8b19718_0
@@ -161,12 +172,15 @@ dependencies:
   - rpds-py=0.30.0=py311h71babbd_0
   - scikit-learn=1.8.0=np2py311hf1dd2ad_1
   - scipy=1.17.0=py311he9931d0_1
+  - seaborn=0.13.2=hd8ed1ab_3
+  - seaborn-base=0.13.2=pyhd8ed1ab_3
   - send2trash=2.1.0=pyh5552912_0
   - setuptools=80.10.2=pyh332efcf_0
   - six=1.17.0=pyhe01879c_1
   - sniffio=1.3.1=pyhd8ed1ab_2
   - soupsieve=2.8.3=pyhd8ed1ab_0
   - stack_data=0.6.3=pyhd8ed1ab_1
+  - statsmodels=0.14.6=py311h09efe57_0
   - terminado=0.18.1=pyhc90fa1f_1
   - threadpoolctl=3.6.0=pyhecae5ae_0
   - tinycss2=1.5.1=pyhcf101f3_0
@@ -190,6 +204,7 @@ dependencies:
   - xorg-libxau=1.0.12=hc919400_1
   - xorg-libxdmcp=1.1.5=hc919400_1
   - yaml=0.2.5=h925e9cb_3
+  - yfinance=0.2.28=pyhd8ed1ab_0
   - zeromq=4.3.5=h888dc83_9
   - zipp=3.23.0=pyhcf101f3_1
   - zlib-ng=2.3.3=hed4e4f5_1
@@ -201,6 +216,7 @@ dependencies:
     - kagglesdk==0.1.15
     - mpmath==1.3.0
     - networkx==3.6.1
+    - pandas-datareader==0.10.0
     - protobuf==6.33.5
     - python-slugify==8.0.4
     - sympy==1.14.0
