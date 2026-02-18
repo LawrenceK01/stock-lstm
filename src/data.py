@@ -1,7 +1,7 @@
 import pandas as pd
 
 def load_data():
-    df = pd.read_csv("data/stocks.csv")
+    df = pd.read_csv("data/portfolio_data.csv")
     df["Date"] = pd.to_datetime(df["Date"])
     return df
 
@@ -13,6 +13,5 @@ def compute_returns(df):
 from sklearn.preprocessing import StandardScaler
 
 
-scaler = StandardScaler()
-scaled_data = scaler.fit_transform(df_returns[stock_cols])
+
 
