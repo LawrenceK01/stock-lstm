@@ -19,6 +19,9 @@ def create_sequences(data, window_size=30):
         y.append(data[i+window_size])
     return np.array(X), np.array(y)
 
-
+def scale_data(data):
+    from sklearn.preprocessing import StandardScaler
+    scaler = StandardScaler()
+    return scaler.fit_transform(data)
 
 
